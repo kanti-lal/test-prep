@@ -4,11 +4,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div >
      <div>
-      <span>
-        kanti lal suthar
-      </span>
+      <div className="grid grid-cols-5">
+        <div>kanti  </div>
+        <div>kranti</div>
+      </div>
      </div>
     </div>
   );
