@@ -1,17 +1,10 @@
 import React from 'react';
 import './App.css';
+import { AppRoutes } from './AppRoutes';
 
 function App() {
   return (
-    <div >
-     <div>
-      <div className="grid grid-cols-5">
-        <div>kanti  </div>
-          
-        </div>  
-      
-     </div>
-    </div>
+    <AppRoutes />
   );
 }
 
