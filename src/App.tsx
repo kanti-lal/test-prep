@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
-import { AppRoutes } from './AppRoutes';
+import Home from './modules/home/Home';
+import HomeRoutes from './modules/home/HomeRoutes';
 
 function App() {
   return (
-    <AppRoutes />
+    <>
+      <Home />
+      <HomeRoutes />
+    </>
   );
 }
 
