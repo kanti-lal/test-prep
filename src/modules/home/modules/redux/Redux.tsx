@@ -4,7 +4,7 @@ type ReduxProps = {
   //
 };
 
-const Redux: React.FC<any> = () => {
+const Redux: React.FC<ReduxProps> = (props: ReduxProps) => {
   return <div>Redux</div>;
 };
 
